@@ -82,20 +82,20 @@ a {
     background-color: #e5e5ea;;
     width: auto;
     height: 224px;
+    padding-top: 25px;
 }
 
 .navbot_test {
+    margin-left: 300px;
+    width:150px;
+    height: 30px;
+    text-align: center;
     text-decoration: none;
     font-size: 20px; 
     font-weight: bold;
-    padding-left: 300px;
-    padding-top: 30px;
-    padding-bottom: 70px;
-}
-
-.navbot_test :link {
     background-color: #757575;
-    border-radius: 5%;
+    border-radius: 5.41px;
+
 }
 
 .navbot_info {
