@@ -3,8 +3,6 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
-/*hi*/
-
 a {
     text-decoration: none;
 }
@@ -81,7 +79,7 @@ a {
     justify-content: space-between;
     background-color: #e5e5ea;;
     width: auto;
-    height: 224px;
+    height: 199px;
     padding-top: 25px;
 }
 
