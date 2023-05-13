@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 25px 300px;
+    height: 0.3cm;
+}
+
+.navbar_logo {
+    text-decoration: none;
+    font-size: 25px; 
+    font-weight: bold
+
+}
+
+.navbar_menu {
+    text-decoration: none;
+    display:flex;
+    list-style: none;
+    padding-left: 0;
+    font-size: 15;
+}
+
+.navbar_menu li {
+    padding: 8px 12px;
+}
+
+.navbar_menu li:hover {
+    background-color: black;
+    opacity: 0.5;
+}
+
+.navmid {
+    justify-content: space-between;
+    background-color: #006C61;
+    width:auto;
+    height: 250px;
+    padding-left: 300px;
+    position:relative;
+}
+
+.navmid_top {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    padding-top: 30px;
+}
+
+.navmid_first {
+    font-size: 40px;
+    color: white;
+    line-height: 15px;
+    text-shadow: 2px 2px 5px #454444
+}
+
+.navmid_second {
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+    line-height: 1px;
+    padding-top: 3px;
+}
+
+.navmid_bot {
+    font-size: 15px;
+    font-weight: 500px;
+    color: white;
+    padding-top: 20px;
+}
+
+.main_box {
+    background-color: transparent;
+    color: #212121;
+    margin-left: 300px;
+    margin-top: 60px;
+    width: 130px;
+    height: 32px;
+    text-align: left;
+    border-bottom: 3.5px solid #006C61;
+    padding-bottom: 4px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.main_box pre {
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 482px;
+    height: 376px;
+}
+.table-info {
+    margin-left: 300px;
+    margin-top: 45px;
+    width: 1180px;
+    color: #777777;
+    border-top: 1px solid #D9D9D9;
+    padding-bottom: 30px;
+  }
+  
+.table-info th {
+    background-color: #F8F9FD;
+    color: #212121;
+    padding: 30px;
+    font-weight: 450;
+    font-size: 18px;
+    border-bottom: 1px solid #D9D9D9;
+}
+  
+.table-info td {
+    font-size: 18px;
+    border-bottom: 1px solid #D9D9D9;
+    padding: 30px;
+}
+
+.navbot {
+    justify-content: space-between;
+    background-color: #e5e5ea;;
+    width: auto;
+    height: 199px;
+    margin-top: 500px;
+    padding-top: 25px;
+}
+
+.navbot_logo {
+    margin-left: 300px;
+    width:150px;
+    height: 30px;
+    text-decoration: none;
+    font-size: 25px; 
+    font-weight: bold;
+}
+
+.navbot_info {
+    text-decoration: none;
+    font-size: 14px; 
+    font-weight: 300;
+    color: #8E8E93 ;
+    padding-left: 300px;
+    line-height: 15px;
+}
