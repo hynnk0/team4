@@ -116,3 +116,51 @@ a {
     padding-left: 300px;
     line-height: 15px;
 }
+
+/* 게시판 CSS 코드 추가 */
+.board {
+    padding: 40px 300px;
+}
+
+.board-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom: 1px solid #e5e5ea;
+}
+
+.board-table th,
+.board-table td {
+    border-top: 1px solid #e5e5ea;
+    padding: 8px;
+}
+
+.right-aligned {
+    text-align: right;
+}
+
+.board-table a {
+    color: #006C61;
+    text-decoration: none;
+}
+
+.board-table a:hover {
+    text-decoration: underline;
+}
+
+.board-write-btn {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.board-write-btn a {
+    background-color: #006C61;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.board-write-btn a:hover {
+    background-color: #00544e;
+    text-decoration: none;
+}
