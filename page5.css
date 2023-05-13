@@ -117,7 +117,6 @@ a {
     line-height: 15px;
 }
 
-/* 게시판 CSS 코드 추가 */
 .board {
     padding: 40px 300px;
 }
@@ -131,15 +130,16 @@ a {
 .board-table th,
 .board-table td {
     border-top: 1px solid #e5e5ea;
-    padding: 8px;
+    padding: 16px 8px;
 }
 
 .right-aligned {
     text-align: right;
+    color: #777777;
 }
 
 .board-table a {
-    color: #006C61;
+    color: inherit;
     text-decoration: none;
 }
 
@@ -163,4 +163,13 @@ a {
 .board-write-btn a:hover {
     background-color: #00544e;
     text-decoration: none;
+}
+
+.total-posts {
+    font-size: 1rem;
+    padding-left: 5px;
+}
+
+.post-number {
+    color: #006C61;
 }
