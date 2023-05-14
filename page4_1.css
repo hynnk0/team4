@@ -100,6 +100,23 @@ a {
     margin-bottom: 20px;
 }
 
+.main_box_main {
+    background-color: transparent;
+    color: #212121;
+    margin-left: 300px;
+    margin-top: 60px;
+    width: 130px;
+    height: 32px;
+    text-align: left;
+    border-bottom: 6px solid #006C61;
+    padding-bottom: 4px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
 .main_box_cherry_tomato {
     background-color: transparent;
     color: #212121;
@@ -108,7 +125,7 @@ a {
     width: 200px;
     height: 32px;
     text-align: left;
-    border-bottom: 3.5px solid #006C61;
+    border-bottom: 6px solid #006C61;
     padding-bottom: 4px;
 
     font-style: normal;
@@ -120,28 +137,25 @@ a {
 .table-info {
     margin-left: 300px;
     margin-top: 45px;
+    margin-bottom: 100px;
     width: 1180px;
     color: #777777;
     border-top: 1px solid #D9D9D9;
-    padding-bottom: 30px;
 }
-
+  
 .table-info th {
     background-color: #F8F9FD;
     color: #212121;
-    padding: 30px;
+    width: 180px;
     font-weight: 450;
     font-size: 18px;
     border-bottom: 1px solid #D9D9D9;
-    
 }
   
 .table-info td {
     font-size: 18px;
     border-bottom: 1px solid #D9D9D9;
-    padding: 30px;
 }
-
 .navbot {
     justify-content: space-between;
     background-color: #e5e5ea;;
