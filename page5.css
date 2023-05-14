@@ -133,6 +133,15 @@ a {
     padding: 16px 8px;
 }
 
+.board-table tr:not(:nth-child(-n+5)) {
+    height: 60px;
+}
+
+
+.board-new {
+    color: #777777;
+}
+
 .right-aligned {
     text-align: right;
     color: #777777;
